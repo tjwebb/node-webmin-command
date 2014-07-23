@@ -1,0 +1,38 @@
+{
+  "name": "webmin-command",
+  "version": "0.0.0",
+  "description": "Builds a custom webmin command from a JSON object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tjwebb/webmin-json-command.git"
+  },
+  "keywords": [
+    "webmin",
+    "custom",
+    "command",
+    "json",
+    "convert",
+    "transform",
+    "create"
+  ],
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwebb/node-webmin-command/issues"
+  },
+  "homepage": "https://github.com/tjwebb/node-webmin-command",
+  "dependencies": {
+    "congruence": "^1.5.4",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "engines": {
+    "node": "^0.10.0"
+  }
+}
